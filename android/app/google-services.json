@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "580136362864",
+    "project_id": "iiysoftwarepvtltd",
+    "storage_bucket": "iiysoftwarepvtltd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:580136362864:android:8546393d69f2319e71e5b5",
+        "android_client_info": {
+          "package_name": "com.iiy.docsaver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "580136362864-3pud4c60983hcih25q9crhuvue76j651.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iiy.docsaver",
+            "certificate_hash": "e0dd5c19864444bec994713c039d14a6b8279421"
+          }
+        },
+        {
+          "client_id": "580136362864-3rnmaeovvsgvvebbmkdutcq3gek22gr1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMtTtseH6RFp6DqZCugCNSBcksQQuaZ5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "580136362864-3rnmaeovvsgvvebbmkdutcq3gek22gr1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
