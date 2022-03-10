@@ -66,7 +66,7 @@ class _HomePageState extends State<HomePage> {
 
     if (backButtonHasNotBeenPressedOrSnackBarHasBeenClosed) {
       backButtonPressTime = now;
-      Scaffold.of(context).showSnackBar(snackBar);
+      ScaffoldMessenger.of(context).showSnackBar(snackBar);
       return false;
     }
 
@@ -101,10 +101,10 @@ class _HomePageState extends State<HomePage> {
           backgroundColor: Colors.deepPurple,
           elevation: 0,
           iconTheme: IconThemeData(color: Colors.white),
-          title: Text(" ",
+          title: Text("Doc Locker ",
               style: TextStyle(
                   fontFamily: GoogleFonts.lato().fontFamily,
-                  fontSize: 22,
+                  fontSize: 23,
                   color: Colors.white,
                   fontWeight: FontWeight.w400)),
           actions: [
@@ -162,8 +162,8 @@ class _HomePageState extends State<HomePage> {
                       borderRadius: BorderRadius.only(
                         bottomLeft: Radius.circular(0),
                         bottomRight: Radius.circular(0),
-                        topLeft: Radius.circular(35),
-                        topRight: Radius.circular(35),
+                        topLeft: Radius.circular(25),
+                        topRight: Radius.circular(25),
                       ),
                     ),
                     child: SingleChildScrollView(
@@ -176,7 +176,7 @@ class _HomePageState extends State<HomePage> {
                             thickness: 2,
                             indent: 120,
                             endIndent: 120,
-                            color: Colors.black,
+                            color: Colors.deepPurple,
                           ),
                           const SizedBox(
                             height: 100,
@@ -184,7 +184,7 @@ class _HomePageState extends State<HomePage> {
                           Text(
                             "Store Your Valuables!",
                             style: TextStyle(
-                                fontSize: 24,
+                                fontSize: 22,
                                 fontFamily: GoogleFonts.lato().fontFamily,
                                 color: Colors.deepPurple),
                           ),

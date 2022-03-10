@@ -46,32 +46,15 @@ class SplashToLogin extends StatelessWidget {
                 child: Text("Doc Locker",
                     style: TextStyle(
                         color: Colors.white,
-                        fontSize: 25,
-                        fontFamily: GoogleFonts.lato().fontFamily)),
-              ),
-              SizedBox(
-                height: 40,
-              ),
-              Expanded(
-                child: Text("From",
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 20,
-                        fontFamily: GoogleFonts.lato().fontFamily)),
-              ),
-              Expanded(
-                child: Text("IIY Software",
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 20,
+                        fontSize: 27,
                         fontFamily: GoogleFonts.lato().fontFamily)),
               ),
             ],
           ),
           splashIconSize: 300,
-          backgroundColor: Colors.deepPurple,
+          backgroundColor: Color.fromARGB(16, 16, 16, 16),
           splashTransition: SplashTransition.slideTransition,
-          duration: 3000,
+          duration: 2500,
         ));
   }
 }
@@ -106,32 +89,15 @@ class SplashToHomePage extends StatelessWidget {
                 child: Text("Doc Locker",
                     style: TextStyle(
                         color: Colors.white,
-                        fontSize: 25,
-                        fontFamily: GoogleFonts.lato().fontFamily)),
-              ),
-              SizedBox(
-                height: 40,
-              ),
-              Expanded(
-                child: Text("From",
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 20,
-                        fontFamily: GoogleFonts.lato().fontFamily)),
-              ),
-              Expanded(
-                child: Text("IIY Software",
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 20,
+                        fontSize: 27,
                         fontFamily: GoogleFonts.lato().fontFamily)),
               ),
             ],
           ),
           splashIconSize: 300,
-          backgroundColor: Colors.deepPurple,
+          backgroundColor: Color.fromARGB(16, 16, 16, 16),
           splashTransition: SplashTransition.slideTransition,
-          duration: 3000,
+          duration: 2500,
         ));
   }
 }

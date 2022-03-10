@@ -14,7 +14,7 @@ class _HelpInfoState extends State<HelpInfo> {
     return Scaffold(
         appBar: AppBar(
           title: Text(
-            "About Us !",
+            "About Me !",
             style: TextStyle(
               fontFamily: GoogleFonts.lato().fontFamily,
               fontSize: 20,
@@ -50,7 +50,7 @@ class _HelpInfoState extends State<HelpInfo> {
                 width: 1.5, // Underline thickness
               ))),
               child: Text(
-                "IIY Software Private Limited",
+                "Raghav ",
                 style: TextStyle(
                   fontFamily: GoogleFonts.lato().fontFamily,
                   fontSize: 23,
@@ -62,7 +62,7 @@ class _HelpInfoState extends State<HelpInfo> {
               height: 25,
             ),
             Text(
-              "OFFICES:- PUNE - MOHALI - BATHINDA",
+              "Working As a - Software Developer",
               style: TextStyle(
                 fontFamily: GoogleFonts.lato().fontFamily,
                 fontSize: 15,
@@ -73,7 +73,7 @@ class _HelpInfoState extends State<HelpInfo> {
               height: 20,
             ),
             Text(
-              "Email:- hr@iiysoftware.com",
+              "Email:- raghavsood111@gmail.com",
               style: TextStyle(
                 fontFamily: GoogleFonts.lato().fontFamily,
                 fontSize: 17,
